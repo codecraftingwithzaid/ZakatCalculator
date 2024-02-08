@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #06142e;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: fadeIn 2s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.container {
+    text-align: center;
+    background-color: #dfb6b2;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 650px;
+    height: 260px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.result-container {
+    width: 80%;
+    margin: 20px auto;
+    /* Adjust the margin as needed */
+    overflow: hidden;
+    /* Ensure the marquee doesn't overflow its container */
+}
+
+#zakatBenefitsMarquee {
+    margin-top: 13px;
+    background-color: #522b5b;
+    color: white;
+}
+
+#heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#wealth {
+    height: 40px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+#itemType {
+    height: 40px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}

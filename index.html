@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/Screenshot 2024-02-08 144824 (1).png">
+    <title>Zakat Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Zakat Calculator (زکوٰۃ کیلکولیٹر)</h1>
+
+        <label for="wealth">Total Wealth:</label>
+        <input type="number" id="wealth" placeholder="Enter total wealth" required>
+
+        <label for="itemType">Select Item Type:</label>
+        <select id="itemType">
+            <option value="cash">Cash</option>
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+        </select>
+
+        <button onclick="calculateZakat()">Calculate Zakat</button>
+
+        <div id="result">
+            <div id="zakatSummary"></div>
+             <marquee behavior="scroll" direction="left" id="zakatBenefitsMarquee"></marquee>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
