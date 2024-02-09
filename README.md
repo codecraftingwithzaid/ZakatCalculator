@@ -14,7 +14,7 @@ JavaScript: Dynamic calculations and user interactions.
 Author
 Author: Zaid Khan
 How to Use
-Clone the repository: git clone https://github.com/your-username/zakat-calculator.git
+Clone the repository: git clone https://github.com/codecraftingwithzaid/ZakatCalculator.git
 Open the index.html file in your web browser.
 Contribution Guidelines
 Contributions to enhance and expand the Zakat Calculator project are welcome. Feel free to submit issues, feature requests, or pull requests.
