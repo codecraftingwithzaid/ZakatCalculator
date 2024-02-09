@@ -28,4 +28,7 @@ Special thanks to Zaid Khan for authoring and contributing to the Zakat Calculat
 We hope this tool proves helpful in fulfilling your Zakat obligations and contributing to the well-being of the community. Happy calculating!
 Author: Zaid Khan
 
-GitHub: https://github.com/Heyazaid/ZakatCalculator
+- GitHub: https://github.com/Heyazaid/ZakatCalculator
+- Demo: https://codecraftingwithzaid.github.io/ZakatCalculator/
+
+Happy coding and exploring the world of Hadiths! 🖥️📚
